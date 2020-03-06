@@ -1,0 +1,20 @@
+server:
+  port: 3301
+
+#注册到注册中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jerrylz/spring-cloud-demo.git
+          username: jerrylz
+          password: 1988210ylz
+

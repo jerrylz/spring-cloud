@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    config:
+      name: service-client1
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: config-server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
+
+
+
+
+
+
+
