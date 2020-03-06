@@ -2,3 +2,4 @@
 /spring-cloud-config-server/target/
 /spring-cloud-eureka-client/target/
 /spring-cloud-eureka-server/target/
+.idea
